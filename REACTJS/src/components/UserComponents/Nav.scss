@@ -1,0 +1,59 @@
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+  
+    .nav-dropdown {
+      display: flex;
+      align-items: center;
+  
+      .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        padding: 8px 10px;
+        color: #000;
+      }
+    }
+  
+    .form-inline {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+  
+      input {
+        width: 400px;
+        padding: 5px 10px;
+        border-radius: 5px 0 0 5px;
+        border: 1px solid #ddd;
+      }
+  
+      button {
+        background-color: #d9534f;
+        border: none;
+        color: white;
+        padding: 6px 12px;
+        border-radius: 0 5px 5px 0;
+      }
+    }
+  
+    .nav {
+      display: flex;
+      align-items: center;
+  
+      .nav-link {
+        color: #000;
+        margin-right: 20px;
+      }
+    }
+  }
+  
+  .header-img {
+    width: 100%;
+    padding-left: 120px;
+    background-color: rgb(220, 35, 35);
+    justify-content: center;
+
+  }
+  

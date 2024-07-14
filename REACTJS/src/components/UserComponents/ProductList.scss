@@ -1,0 +1,93 @@
+.product-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .category-tabs {
+        display: flex;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 20px;
+
+        span {
+            padding: 10px 20px;
+            cursor: pointer;
+
+            &.active {
+                border-bottom: 2px solid red;
+                color: red;
+            }
+        }
+    }
+
+    .products {
+        display: flex;
+        justify-content: space-between;
+
+        .product-item {
+            flex: 1;
+            margin: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            transition: box-shadow 0.3s ease;
+
+            img {
+                max-width: 350px;
+                height: 400px;
+                margin-bottom: 10px;
+            }
+
+            .product-name {
+                font-size: 16px;
+                color: #333;
+                margin-bottom: 10px;
+            }
+
+            .product-price {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 10px;
+
+                .new-price {
+                    color: red;
+                    font-weight: bold;
+                    margin-right: 10px;
+                }
+
+                .old-price {
+                    text-decoration: line-through;
+                    color: #888;
+                    margin-right: 10px;
+                }
+
+                .discount {
+                    color: red;
+                    background-color: #fee;
+                    padding: 2px 5px;
+                    border-radius: 3px;
+                }
+            }
+
+            .product-sold {
+                color: #888;
+            }
+
+        }
+
+          
+    }
+    .custom-btn {
+        width: 250px; /* Điều chỉnh chiều rộng của nút */
+        text-align: center; /* Căn giữa nội dung của nút */
+        margin: 0 auto; /* Để căn giữa nút theo chiều ngang */
+        display: block; /* Đảm bảo nút chiếm toàn bộ chiều rộng đã thiết lập */
+    }
+}

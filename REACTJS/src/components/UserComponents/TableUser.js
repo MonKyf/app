@@ -6,7 +6,6 @@ import ModalAddUser from './ModalAddUser';
 import Button from 'react-bootstrap/Button';
 import ModalEditUser from './ModalEditUser';
 import { useNavigate } from 'react-router-dom';
-
 import _ from "lodash"
 const TableUser = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
